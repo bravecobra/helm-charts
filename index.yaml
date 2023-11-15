@@ -5,6 +5,33 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: latest
+    created: "2023-11-15T15:59:01.208467973Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: ^2.9.0
+    description: LocalStack - a fully functional local AWS cloud stack
+    digest: 62f893374e4d0c582568a2f78fe5c5dc9b957f379265008eb83966f9bc4b7de5
+    icon: https://localstack.cloud/images/localstack.png
+    keywords:
+    - aws
+    - localstack
+    maintainers:
+    - email: info@localstack.cloud
+      name: LocalStack Team and Community
+      url: https://localstack.cloud/
+    name: localstack
+    sources:
+    - https://localstack.cloud/
+    - https://github.com/localstack/localstack
+    type: application
+    urls:
+    - https://github.com/bravecobra/helm-charts/releases/download/localstack-0.6.5/localstack-0.6.5.tgz
+    version: 0.6.5
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: latest
     created: "2023-08-29T16:09:39.310092897Z"
     dependencies:
     - name: common
@@ -572,4 +599,4 @@ entries:
     urls:
     - https://github.com/localstack/helm-charts/releases/download/localstack-0.1.1/localstack-0.1.1.tgz
     version: 0.1.1
-generated: "2023-08-29T16:09:39.310212498Z"
+generated: "2023-11-15T15:59:01.208588379Z"
